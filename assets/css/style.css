@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: all 0.5s;
   transition: all 0.5s;
   padding: 10px 0;
-  background: #f1f8fa;
+  background: rgba(181, 206, 231, 0.6);
   z-index: 997;
 }
 
@@ -265,7 +265,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #e3f0fc;
+  color: #3696f0;
   padding: 10px 20px;
   font-weight: 500;
 }
@@ -352,6 +352,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 0;
   overflow: hidden;
 }
+#hero .content-item {
+  color: rgb(255, 255, 255);
+  /* text-align: right; */
+  font-size: 15px;
+  margin: 0;
+  padding: 10px;
+}
 
 #hero .carousel-item {
   width: 100%;
@@ -364,7 +371,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-item::before {
   content: '';
-  background-color: rgba(13, 30, 45, 0.6);
+  background-color: rgba(181, 206, 231, 0.6);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -400,7 +407,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   }
 }
 
-#hero h2 {
+#hero h1 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
